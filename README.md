@@ -39,8 +39,17 @@ The findings provide a data-driven overview of Nobel Prize recognition and its d
 
 ## Visualization
 
-The data was analysed and visualised using Microsoft Power BI.
+Power Query was used to prepare the Nobel Prize dataset for analysis in Power BI. The data transformation process involved reviewing the dataset, checking data types, handling missing or inconsistent values, merging columns and organising relevant columns for analysis. These steps helped improve data consistency and ensured that the dataset was properly structured for creating visualisations and DAX measures.
 
+DAX (Data Analysis Expressions) was used in Power BI to create measures for calculating key performance indicators and summarising the Nobel Prize dataset. These measures supported the analysis of laureate distribution, prize categories, country rankings, gender representation, and multiple award recipients. The calculations also made the dashboard interactive, allowing results to respond to report filters and selections.
+
+![](Dax.Measure.png)
+
+A calculated age-group classification was created using group list in Power Bi to organise Nobel laureates into meaningful age ranges. This made it easier to examine the ages at which individuals received Nobel Prizes and identify the age groups with the highest representation.
+
+![](Age_grouping.png)
+
+The data was analysed and visualised using Microsoft Power BI.
 
 ![](Dashboard_image.png)
 
